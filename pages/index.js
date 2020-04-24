@@ -1,34 +1,8 @@
-import { PrismaClient } from "@prisma/client";
-import { Heading, Stack, Box } from "@chakra-ui/core";
+import React from "react";
+import Link from "next/link";
 
-const IndexPage = ({ posts }) => {
-  return (
-    <Stack spacing={4}>
-      {posts.map((post) => {
-        return (
-          <Box key={post.id}>
-            <Heading mb={4} size="md">
-              {post.title}
-            </Heading>
-          </Box>
-        );
-      })}
-    </Stack>
-  );
+const IndexPage = () => {
+  return <>Please one of the routes from the navbar.</>;
 };
-
-export async function getStaticProps() {
-  const prisma = new PrismaClient();
-
-  const posts = await prisma.post.findMany({
-    include: { author: true },
-  });
-
-  return {
-    props: {
-      posts,
-    },
-  };
-}
 
 export default IndexPage;
