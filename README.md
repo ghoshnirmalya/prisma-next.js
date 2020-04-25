@@ -1,30 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Prisma Next.js</h1>
 
-## Getting Started
+<p align="center">
+  <a href="https://twitter.com/nirmalyaghosh23">
+    <img alt="Twitter: Nirmalya Ghosh" src="https://img.shields.io/twitter/follow/nirmalyaghosh23.svg?style=social" target="_blank" />
+  </a>
+</p>
 
-First, run the development server:
+This is a sample application built using [Prisma](https://www.prisma.io/) and [Next.js](https://nextjs.org/).
 
-```bash
-npm run dev
-# or
-yarn dev
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Overview](#overview)
+- [Requirements](#requirements)
+- [Installation](#installation)
+  - [1. **Clone the application**](#1-clone-the-application)
+  - [2. **Install the dependencies**](#2-install-the-dependencies)
+  - [3. **Start the application**](#3-start-the-application)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Overview
+
+This is a sample application built using [Prisma](https://www.prisma.io/) and [Next.js](https://nextjs.org/) showing how to leverage advanced Next.js features like [getStaticProps](https://nextjs.org/docs/basic-features/data-fetching) and [getServerSideProps](https://nextjs.org/docs/basic-features/data-fetching) to make our apps faster.
+
+## Requirements
+
+1. [Node.js](https://nodejs.org/)
+2. [npm](https://www.npmjs.com/)
+3. [Next.js](https://nextjs.org/)
+
+## Installation
+
+### 1. **Clone the application**
+
+```sh
+git clone https://github.com/ghoshnirmalya/prisma-next.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. **Install the dependencies**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+From the project root, we can run the following command to install all the dependencies:
 
-## Learn More
+```sh
+yarn install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 3. **Start the application**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+From the project root, we can run the following command to start our application:
 
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
+```sh
+yarn start
+```
 
-## Deploy on ZEIT Now
+The above command will start the application on [http://localhost:3000/](http://localhost:3000).
 
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
