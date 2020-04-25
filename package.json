@@ -2,6 +2,7 @@
   "name": "prisma-next.js",
   "version": "0.0.1",
   "private": false,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,8 +18,5 @@
     "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1"
-  },
-  "devDependencies": {
-    "@prisma/cli": "2.0.0-beta.2"
   }
 }
